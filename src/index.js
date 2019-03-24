@@ -21,16 +21,11 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
      delete preferences[i];
      delete preferences[a-1];
      delete preferences[b-1];
-     //delete a;
-     //delete b;
+    
     }
     
   }
   return triangles;
 
 }
-  //функия сортировки массива как чисел
-  function compareNumeric(a, b) {
-    if (a > b) return 1;
-    if (a < b) return -1;
-  }
+
